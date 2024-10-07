@@ -14,11 +14,15 @@
     $user_word = isset($_GET["word"]);
 
     
-        function reverse_word($user_word, $reversed_word)
+        function reverse_word($user_word)
         {
             $reverse_word = '';
-            if($user_word){
+            for( $i = strlen($user_word) -1; $i >= 0; $i--){
+                $reverse_word .= $user_word[$i];
+            }
 
+            if($user_word === $reverse_word){
+                return true;
             }
         }
 
