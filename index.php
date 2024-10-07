@@ -13,12 +13,14 @@
 <?php 
     $user_word = isset($_GET["word"]);
 
-    if ($user_word) {
-        function reverse_word()
+    
+        function reverse_word($user_word, $reversed_word)
         {
-            
+            $reverse_word = '';
+            if($user_word){
+
+            }
         }
-    }
 
 ?>
 
