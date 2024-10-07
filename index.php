@@ -10,6 +10,20 @@
 
     </head>
 
+<?php 
+    $user_word = isset($_GET["word"]);
+
+    if ($user_word) {
+        function reverse_word()
+        {
+            
+        }
+    }
+
+?>
+
+
+
 <body>
     <h1 class="text-center">
         SCRIVI UNA PAROLA PALINDROMA
